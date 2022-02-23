@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="icon" href="../assets/img/logo.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div>
+            <img class="logo" src="../assets/img/legalenergy1.png" alt="logo">
+        </div>    
+            <nav>
+                <ul class="header_nav">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre Nosotros</a></li>
+                    <li><a href="que_ofrecemos.html">Que ofrecemos</a></li>
+                    <li><a href="noticias.html">Ultimas noticias</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="views/contacto.html"><button>Contacto</button></a>
+    </header>
+    <!-- FIN HEADER -->
+
+    <main class="main_contact">
+        <!-- comienzo MAIN contacto -->
+        <div class="contact-in">
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14492.8637022315!2d-65.4639104!3d-24.753784749999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc13864bd3bbd%3A0x744bcfc9aee548bc!2sEl%20Tipal%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1644070044510!5m2!1ses-419!2sar" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        <!-- Formulario de contacto -->
+            <div class="contact-form">
+                <h2>Contacto</h2>
+                <form action="#">
+                        <input type="text" name="nombre" placeholder="Nombre" class="contact-form-txt">
+                        <input type="text" name="Apellido" placeholder="Apellido" class="contact-form-txt">
+                        <input type="email" name="email" placeholder="Email" class="contact-form-txt"> 
+
+                    <div class="contact-via">Selecciona una forma de contacto:
+                        <select name="contacto" id="contacto" class="form_option">
+                            <option value="SMS" class="form_option">SMS</option>
+                            <option value="Email" class="form_option">Email</option>
+                            <option value="Whatsapp" class="form_option">Whatsapp</option>
+                        </select>
+                    </div>
+
+                    <div class="contact-via">Desea subscribirse a nuestro newsletter?
+                        <input type="checkbox" name="Si" value="1">
+                    </div><br>
+
+                    <input type="submit" value="Enviar" class="contact-form-btn">
+                </form>
+            </div>
+        </div>
+        <!-- fin formulario de contacto -->
+    </main>
+    <!-- fin MAIN contacto -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <h3 class="footer__title">Redes Sociales</h3>
+            <ul class="redes">
+                <li><a href="https://www.instagram.com/legalenergymining/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/legal-energy-mining/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="https://twitter.com/legenergymining" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy;2022 Legal Energy. designed by <span>Jeronimo Peredo</span></p>
+        </div>
+    </footer>
+    <!-- FIN FOOTER -->
+</body>
+</html>
