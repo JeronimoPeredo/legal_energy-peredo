@@ -84,7 +84,6 @@ h1 {
 footer {
     grid-area: footer;
     margin-top: 16rem;
-    width: 100vw;
     font-family: "Montserrat";
     padding-top: 40px;
     color: #edf0f1; 
@@ -139,7 +138,6 @@ footer {
 }
 
 .footer-bottom {
-    width: 100vw;
     padding: 10px 0;
     text-align: center;
 }
