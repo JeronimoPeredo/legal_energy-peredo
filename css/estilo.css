@@ -255,18 +255,6 @@ footer {
     padding-top: 50px;
 }
 
-.section_about p {
-    display: flex;
-    text-align: justify;
-    width: 100%;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 50%;
-    font-family: "Montserrat" , sans-serif;
-    font-size: 16px;
-    color: #edf0f1;
-}
-
 .main_servicios h2 {
     display: flex;
     justify-content: center;
@@ -297,10 +285,6 @@ footer {
     color: #edf0f1;
 }
 
-.main_noticias {
-    width: 100%;
-}
-
 .noticias-title {
     color: #edf0f1;
 }
@@ -315,26 +299,13 @@ footer {
     padding-top: 50px; 
 }
 
-.section_noticias {
-    padding-top: 5vh;
-    padding-right: 70vh;
+.img1 {
+    width: 100%;
 }
 
-.section_noticias-title {
-    font-family: "Montserrat" , sans-serif;
-    color: #edf0f1;
-    font-weight: 400;
-    padding-left: 20px;
-    padding-top: 50px;
-}
-
-.main_noticias p {
+.parrafo-about {
     text-align: justify;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
     font-family: "Montserrat" , sans-serif;
-    font-size: 16px;
     color: #edf0f1;
 }
 
@@ -347,15 +318,6 @@ footer {
         "header"
         "main"
         "footer";
-    }
-    
-    header {
-        display: flex;
-        flex-direction: column;
-        grid-area: header;
-        justify-content: space-between;
-        align-items: center;
-        padding: 30px 10%;
     }
 
     .logo{
