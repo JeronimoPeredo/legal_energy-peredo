@@ -255,7 +255,7 @@ footer {
     padding-top: 50px;
 }
 
-.main_servicios h2 {
+.title-servicios{
     display: flex;
     justify-content: center;
     font-family: "Montserrat" , sans-serif;
@@ -270,16 +270,12 @@ footer {
     font-family: "Montserrat" , sans-serif;
     color: #edf0f1;
     font-weight: 400;
-    padding-left: 20px;
     padding-top: 50px;
 }
 
 .section_servicios-p {
     text-align: justify;
-    width: 100%;
-    padding-left: 20px;
     padding-top: 20px;
-    padding-right: 50%;
     font-family: "Montserrat" , sans-serif;
     font-size: 16px;
     color: #edf0f1;
@@ -301,6 +297,12 @@ footer {
 
 .img1 {
     width: 100%;
+    border-radius: 5px;
+}
+
+.img-ofrecemos {
+    width: 100%;
+    border-radius: 5px;
 }
 
 .parrafo-about {
