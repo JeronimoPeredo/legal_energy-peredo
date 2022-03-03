@@ -377,7 +377,6 @@ footer {
     footer {
         grid-area: footer;
         margin-top: 10rem;
-        width: 100vw;
         font-family: "Montserrat";
         padding-top: 40px;
         color: #edf0f1; 
