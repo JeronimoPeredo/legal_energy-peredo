@@ -15,19 +15,14 @@
     
     .header_nav {
         list-style: none;
-    }
-    
-    .header_nav li {
-        display: flex;
-        padding: 10px 20px;
-    }
-    
-    .header_nav li a {
-        transition: all 0.3s ease 0s;
-    }
-    
-    .header_nav li a:hover {
-        color: #0088a9;    
+            li {
+                display: flex;
+                padding: 10px 20px;
+                a {
+                    transition: all 0.3s ease 0s;
+                    &:hover {color: #0088a9;}
+                }
+            }
     }
     
     button {
@@ -37,12 +32,8 @@
         border-radius: 50px;
         cursor: pointer;
         transition: all 0.3s ease 0s;
+        &:hover {background-color: rgba(0, 136, 169, 0.8)}
     }
-    
-    button:hover {
-        background-color: rgba(0, 136, 169, 0.8);
-    }
-    
 
     main{
         display: flex;
@@ -50,15 +41,14 @@
         padding-top: 6rem;
         grid-area: main;
         height: 80%;
-    }
-
-    h1 {
-        text-align: center;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
-        color: #edf0f1;
-        font-size: 40px;
-        padding-top: 15%;
+            h1 {
+                text-align: center;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                color: #edf0f1;
+                font-size: 45px;
+                padding-top: 15%;
+            }
     }
 
     footer {
@@ -94,11 +84,10 @@
         width: 100%;
         height: auto;
         flex: 50%;
-    }
-    
-    .contact-map iframe {
-        width: 100%;
-        height: 100%;
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
     }
     
     .contact-form {
@@ -106,14 +95,13 @@
         height: auto;
         flex: 50%;
         padding: 30px;
-    }
-    
-    .contact-form h2 {
-        font-family: "Montserrat";
-        font-size: 35px;
-        margin-bottom: 20px;
-        text-align: center;
-        color: #aaa;
+            h2 {
+                font-family: "Montserrat";
+                font-size: 35px;
+                margin-bottom: 20px;
+                text-align: center;
+                color: #aaa;
+            }
     }
     
     .contact-form-txt {
@@ -136,8 +124,7 @@
         border: none;
         outline: none;
         border-radius: 50px;
-        background-color: #bcbcbc;
-        color: black;
+        color: #bcbcbc;
         text-transform: uppercase;
         padding: 10px 0;
         cursor: pointer;

@@ -1,2 +1,12 @@
-main{grid-area: main;height: 80%;}
-h1 {text-align: center;font-family: "Montserrat", sans-serif;font-weight: 500;color: #edf0f1;font-size: 50px;padding-top: 15%;}
+main {
+  grid-area: main;
+  height: 80%;
+  h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    font-size: 50px;
+    padding-top: 15%;
+  }
+}
