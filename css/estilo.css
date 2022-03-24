@@ -299,6 +299,8 @@ footer {
   .footer-content-m {
     height: 40vh;
     justify-content: flex-end; }
+  .footer-content-contacto {
+    margin-top: 1rem; }
   .paneles-eolicos {
     width: 100%;
     border-radius: 10px; }
