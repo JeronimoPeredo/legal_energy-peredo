@@ -39,9 +39,18 @@ main {
     font-size: 50px;
     padding-top: 15%; }
 
+.p-index {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  color: #0088a9;
+  justify-content: center;
+  padding: 35px; }
+
 footer {
   grid-area: footer;
-  margin-top: 16rem;
+  margin-top: 0.5rem;
   font-family: "Montserrat";
   padding-top: 40px;
   color: #edf0f1; }
@@ -50,8 +59,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  text-align: center; }
+  flex-direction: column; }
   .footer-content h3 {
     font-size: 20px;
     font-weight: 400;
@@ -62,6 +70,10 @@ footer {
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px; }
+
+.footer-content-m {
+  height: 50vh;
+  justify-content: flex-end; }
 
 .redes {
   list-style: none;
@@ -108,8 +120,8 @@ footer {
   color: #edf0f1; }
 
 .paneles-eolicos {
-  width: 100%;
-  border-radius: 5px; }
+  width: 130%;
+  border-radius: 10px; }
 
 .title-servicios {
   display: flex;
@@ -157,7 +169,7 @@ footer {
 .p-noticias {
   padding-top: 20px;
   color: #edf0f1;
-  font-size: 18px;
+  font-size: 16px;
   text-align: justify; }
 
 .main_contact {
@@ -269,12 +281,27 @@ footer {
       color: #edf0f1;
       font-size: 45px;
       padding-top: 15%; }
+  .p-index {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    color: #0088a9;
+    justify-content: center;
+    text-align: center;
+    padding: 50px; }
   footer {
     grid-area: footer;
-    margin-top: 10rem;
+    margin-top: 0.5rem;
     font-family: "Montserrat";
     padding-top: 40px;
     color: #edf0f1; }
+  .footer-content-m {
+    height: 40vh;
+    justify-content: flex-end; }
+  .paneles-eolicos {
+    width: 100%;
+    border-radius: 10px; }
   .main_contact {
     width: 100%;
     height: 95vh;
@@ -335,7 +362,41 @@ footer {
     color: #aaa;
     padding-bottom: 20px; }
   .form_option {
-    color: #aaa; } }
+    color: #aaa; }
+  .noticias-title {
+    color: #edf0f1; }
+  .main_noticias-title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+    font-weight: 400;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 50px; }
+  .img1 {
+    width: 100%;
+    border-radius: 5px; }
+  .p-noticias {
+    padding-top: 20px;
+    color: #edf0f1;
+    font-size: 16px;
+    text-align: justify; }
+  .title-servicios {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+    font-weight: 400;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 50px; }
+  .parrafo-about {
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1; }
+  .paneles-eolicos {
+    width: 100%;
+    border-radius: 10px; } }
 
 .btn {
   padding: 9px 25px;
